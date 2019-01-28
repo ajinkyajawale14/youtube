@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html>
+<script type="text/javascript"></script>
+<script src="videodownloader.js"></script>
+<head>
+	<style type="text/css">
+		
+.container{
+	width: 960px;
+	margin: 0 auto;
+	background-color: #e8e8e8; 	
+}
+	</style>
+	<title> Video Downloader </title>
+	<div class="container"> 
+	<h2> ENTER URL </h2>
+ 	<div id="inputurl">
+ 		
+ 		submitURL: <input type="url" name="url"> <br><br>
+ 		<button type="button" id="button" onclick="changeText3()">Submit url </button> <br/>
+
+
+ 		
+  	</div>
+
+<input type="text" id="input"> oninput: <span id="result"></span>
+<script>
+  input.oninput = function() {
+    result.innerHTML = input.value;
+  };
+</script>
+
+<body>
+<p> Entered URL is: </p>
+
+</body>
+</html>
+
